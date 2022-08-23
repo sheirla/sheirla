@@ -2,7 +2,7 @@
 init.d🌱
 {
 "name": "Sheirla",
-"role": "Fullstack"
+"role": "Fullstack",
 "language": {
  "javascript",
  "python",
