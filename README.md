@@ -1,18 +1,16 @@
+```js
 class Probabilities {
     constructor() {
         this.alias  = [ 'Probabilities', 'Socket' ]
     }
 
     contact() {
-        const discord  = '@shareholders'
-        const telegram = 't.me/gaveaway'
-        const email    = 'xmlrequest@proton.me'
-        
-        return discord, telegram, email
+        const discord  = '@wa6iman'
+        return discord
     }
 
     life() {
-        const age        = 19
+        const age        = 27
         const occupation = 'Freelance Software Developer'
         const hobbies    = [ 'Programming', 'Reverse Engineering', 'Reading' ]
         
@@ -20,9 +18,9 @@ class Probabilities {
     }
 
     programming() {
-        const languages         = [ 'Javascript (Node.js Framework)', 'Python', 'C#' ];
+        const languages         = [ 'Javascript', 'Python', 'C#', 'C++', 'PHP' ];
         const learning          = 'Golang';
-        const ide               = 'Visual Studio Code';
+        const ide               = ['Visual Studio Code','NeoVim'];
 
         const preferredLanguage = languages[0];
 
@@ -31,3 +29,4 @@ class Probabilities {
 }
 
 export default Probabilities
+```
