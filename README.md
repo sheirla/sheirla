@@ -1,32 +1,23 @@
-```js
-class Probabilities {
-    constructor() {
-        this.alias  = [ 'Probabilities', 'Socket' ]
+
+```rust
+fn main() {
+    println!("Hello, World 👋!");
+
+    let skills = ["Rust", "TypeScript", "React", "Next.js","Tauri","Electron","React Native", "Flutter", "Go", "Laravel"];
+    for skill in skills {
+        println!("💡 I love working with: {}", skill);
     }
 
-    contact() {
-        const discord  = '@wa6iman'
-        return discord
-    }
-
-    life() {
-        const age        = 27
-        const occupation = 'Freelance Software Developer'
-        const hobbies    = [ 'Programming', 'Reverse Engineering', 'Reading' ]
-        
-        return age, occupation, hobbies
-    }
-
-    programming() {
-        const languages         = [ 'Javascript', 'Python', 'C#', 'C++', 'PHP' ];
-        const learning          = 'Golang';
-        const ide               = ['Visual Studio Code','NeoVim'];
-
-        const preferredLanguage = languages[0];
-
-        return languages, learning, ide, preferredLanguage
+    if let Ok(_) = try_something_new("Rust") {
+        println!("🚀 Always learning something new!");
     }
 }
 
-export default Probabilities
+fn try_something_new(topic: &str) -> Result<(), &'static str> {
+    if topic == "Rust" {
+        Ok(())
+    } else {
+        Err("Hmm, not today.")
+    }
+}
 ```
